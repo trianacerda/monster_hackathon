@@ -26,6 +26,20 @@ submitBtn[0].addEventListener('click', () => {
     nouns[i].textContent = nounInputs[i].value
     console.log('Nouns', nouns[i]);
   }
+
+  for (i = 0; i < verbInputs.length; i++ ) {
+    verbs[i].textContent = verbInputs[i].value
+    console.log('Verbs', verbs[i]);
+  }
+
+  for (i = 0; i < adjectiveInputs.length; i++ ) {
+    adjectives[i].textContent = adjectiveInputs[i].value
+    console.log('Adjectives', adjectives[i]);
+  }
+  for (i = 0; i < adverbInputs.length; i++ ) {
+    adverbs[i].textContent = adverbInputs[i].value
+    console.log('Adverbs', adverbs[i]);
+  }
 })
 
 
