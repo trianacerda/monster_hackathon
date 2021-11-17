@@ -5,19 +5,42 @@
   color: red;
 }
 
+.noun-input,
+.verb-input,
+.adverb-input,
+.adj-input {
+  border-radius: 10px;
+  background-color: palegreen;
+}
+
 .hidden {
   display: none;
 }
 
 .blur {
   color: transparent;
-  font-size: 24px;
   text-shadow: 0 0 8px #000;
+}
+
+html {
+  background-color: mediumseagreen;
+}
+
+header {
+  font-size: 48px;
+  color: greenyellow;
 }
 
 body {
   width: 60%;
-  margin: auto;
+  margin: 30% auto 30% auto;
   text-align: center;
   font-family: "Creepster", cursive;
+  font-size: 24px;
+}
+
+.submit {
+  background-color: greenyellow;
+  border-radius: 10px;
+  padding: 5px;
 }
