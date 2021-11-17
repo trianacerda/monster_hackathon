@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Monster Hackathon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>Hello World!</header>
+    <header>Monster Mad Libs</header>
     <main>
-      <p class="display-paragraph">
+      <p id="display-paragraph" class="hidden">
         I was <span class="verb">working</span> in the lab, late one night When
         my eyes beheld an <span class="adj">eerie</span> sight For my monster
         from his slab, began to rise And <span class="adverb">suddenly</span> to
@@ -19,7 +25,7 @@
         caught on in a <span class="adverb">flash</span> He did the mash, he did
         the monster mash
       </p>
-      <p class="input-paragraph">
+      <p id="input-paragraph" class="blur">
         I was <input class="verb-input" placeholder="verb" type="text" />in the
         lab, late one night When my eyes beheld an
         <input class="adj-input" placeholder="adj" type="text" /> sight For my
