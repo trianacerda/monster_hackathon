@@ -1,3 +1,23 @@
-.noun, .verb, .adverb, .adj {
+.noun,
+.verb,
+.adverb,
+.adj {
   color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.blur {
+  color: transparent;
+  font-size: 24px;
+  text-shadow: 0 0 8px #000;
+}
+
+body {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-family: "Creepster", cursive;
 }
